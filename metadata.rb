@@ -21,7 +21,7 @@ supports 'opensuse'
 supports 'opensuseleap'
 
 depends 'yum-mysql-community'
-depends 'smf'
+#depends 'smf'
 
 source_url 'https://github.com/chef-cookbooks/mysql' if respond_to?(:source_url)
 issues_url 'https://github.com/chef-cookbooks/mysql/issues' if respond_to?(:issues_url)
